@@ -1,1 +1,32 @@
+Week 7 Documentation
+
+Bugs found in main.py:
+1. The import statement was incomplete.
+   Fixed by writing:
+   from food_order import calculate_total
+
+2. The calculation function was not called correctly.
+   Fixed by calling:
+   calculate_total(price, quantity)
+
+3. The program did not validate invalid input.
+   Fixed by checking if price <= 0 and quantity <= 0 in food_order.py.
+
+Bugs found in food_order.py:
+1. The function parameters were missing.
+   Fixed by using:
+   def calculate_total(price, quantity):
+
+2. The return statement was incomplete.
+   Fixed by returning:
+   price * quantity
+
+Input validation:
+1. If price is less than or equal to 0, the function returns "invalid price".
+2. If quantity is less than or equal to 0, the function returns "invalid quantity".
+3. If both inputs are valid, the function returns price * quantity.
+
+Testing:
+The program was tested using pytest in test_food_order.py.
+All tests passed successfully.
 
