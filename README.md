@@ -26,3 +26,8 @@ service charge, delivery fee and displays the final receipt.
 ## Application Demonstration
 
 A screen recording showing the program execution is included.
+
+![alt text](https://github.com/user-attachments/assets/ff7bcc20-4d2b-4342-8577-b31f50fcf363)
+
+
+
